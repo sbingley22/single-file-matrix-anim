@@ -17,7 +17,7 @@ import {
 import { useControls, Leva } from 'leva'
 
 const Game = () => {
-  const { pixelate, noiseValue, glitchValue, chromaticValue, sepiaValue, playSound } = useControls({
+  const { pixelate, noiseValue, glitchValue, chromaticValue, sepiaValue } = useControls({
     pixelate: {
       label: 'Pixelate',
       value: 0,
